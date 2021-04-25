@@ -411,6 +411,7 @@ input[type=submit]{
 } */
 
 
+
 /* .　間違えた宿題の回答
 reservation .form-group{
   border: 3px solid red;
@@ -525,6 +526,20 @@ tr:nth-child(1){
   padding: .3em 0;
 }
 
+/* top button */
+.top{
+  background-color: #c7a17a;
+  padding: 5px;
+  position: fixed;
+  right: 2em;
+  bottom: .7em;
+  text-decoration: none;
+  font-family:'Oswald', sans-serif;
+  color: #f2f2f2;
+  border-radius: 5px;
+  
+}
+
 /* responsive design code */
 /* max-width = if the screen size reach to 0-768px apply this css */
 
@@ -549,5 +564,12 @@ tr:nth-child(1){
   .ads-item3,.ads-item4,.ads-item5{
     margin-bottom: 3%;
   }
-  
+  .form-group{
+    float: none;
+    width: 100%;
+  }
+  .footer-widgets{
+    float: none;
+    width: 100%;
+  }
 }
